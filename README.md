@@ -5,7 +5,7 @@
 ## 实验地址:
 
 <https://illyasviel.feedia.co/> _(无稳定性保证)_  
-<https://random-picture.vercel.app/> _(部署到 vercel)_  
+<https://random-picture.vercel.sakura.app/> _(部署到 vercel)_  
 >演示中图片来自<https://www.pixiv.net/users/8236670>  
 
 ## 注意:
@@ -28,7 +28,7 @@
 
 伪静态是可选的。  
 开启伪静态后，将支持以<https://example.net/:id.png>形式访问  
-例如<https://random-picture.vercel.app/1.jpg>  <https://random-picture.vercel.app/2.jpg>  
+例如<https://random-picture.vercel.sakura.app/1.jpg>  <https://random-picture.vercel.sakura.app/2.jpg>  
 **:id** 即图片 id，如果非数字，则随机跳转。请求会被缓存。  
 Apache 和 Vercel 部署都直接支持伪静态。  
 Nginx 参照以下配置：  
